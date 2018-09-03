@@ -544,4 +544,7 @@
 
     <!-- Whether to enable Qualcomm Boost Framework -->
     <bool name="config_enableQcCpuBoost">true</bool>
+    
+    <!-- Flag indicating whether we should enable smart battery. -->
+     <bool name="config_smart_battery_available">true</bool>
 </resources>
