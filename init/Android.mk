@@ -24,7 +24,7 @@ LOCAL_C_INCLUDES := \
     system/core/base/include \
     system/core/init
 LOCAL_CFLAGS := -Wall -DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"
-LOCAL_SRC_FILES := init_PL2.cpp
-LOCAL_MODULE := libinit_PL2
+LOCAL_SRC_FILES := init_DRG.cpp
+LOCAL_MODULE := libinit_DRG
 
 include $(BUILD_STATIC_LIBRARY)

@@ -21,7 +21,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/nokia/PL2
+DEVICE_PATH := device/nokia/DRG
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -30,7 +30,7 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 BOARD_VENDOR := nokia
 TARGET_BOARD_PLATFORM := sdm660
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno508
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno509
 
 # Architecture
 TARGET_ARCH := arm64
@@ -58,7 +58,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/nokia/sdm660
-TARGET_KERNEL_CONFIG := PL2_defconfig
+TARGET_KERNEL_CONFIG := DRG_defconfig
 
 
 # QCOM
@@ -70,7 +70,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := PL2
+TARGET_OTA_ASSERT_DEVICE := DRG
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -197,7 +197,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # vendor
-BOARD_PREBUILT_VENDORIMAGE := vendor/nokia/PL2/proprietary/vendor.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/nokia/DRG/proprietary/vendor.img
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
@@ -229,8 +229,8 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_USES_MKE2FS := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_PL2
-TARGET_RECOVERY_DEVICE_MODULES := libinit_PL2
+TARGET_INIT_VENDOR_LIB := libinit_DRG
+TARGET_RECOVERY_DEVICE_MODULES := libinit_DRG
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
@@ -259,4 +259,4 @@ endif
 
 
 # inherit from the proprietary version
--include vendor/nokia/PL2/BoardConfigVendor.mk
+-include vendor/nokia/DRG/BoardConfigVendor.mk

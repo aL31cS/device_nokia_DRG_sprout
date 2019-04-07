@@ -14,12 +14,12 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_PL2.mk \
-    $(LOCAL_DIR)/dot_PL2.mk \
-    $(LOCAL_DIR)/havoc_PL2.mk \
-    $(LOCAL_DIR)/lineage_PL2.mk \
-    $(LOCAL_DIR)/mk_PL2.mk \
-    $(LOCAL_DIR)/nitrogen_PL2.mk \
-    $(LOCAL_DIR)/rr_PL2.mk \
-    $(LOCAL_DIR)/syberia_PL2.mk \
-    $(LOCAL_DIR)/viper_PL2.mk \
+    $(LOCAL_DIR)/aosp_DRG.mk \
+    $(LOCAL_DIR)/dot_DRG.mk \
+    $(LOCAL_DIR)/havoc_DRG.mk \
+    $(LOCAL_DIR)/lineage_DRG.mk \
+    $(LOCAL_DIR)/mk_DRG.mk \
+    $(LOCAL_DIR)/nitrogen_DRG.mk \
+    $(LOCAL_DIR)/rr_DRG.mk \
+    $(LOCAL_DIR)/syberia_DRG.mk \
+    $(LOCAL_DIR)/viper_DRG.mk \
