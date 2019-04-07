@@ -18,7 +18,7 @@
 
 set -e
 
-DEVICE=	DRG
+DEVICE=	B2N
 VENDOR=nokia
 
 # Load extract_utils and do some sanity checks

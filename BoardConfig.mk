@@ -21,7 +21,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/nokia/DRG
+DEVICE_PATH := device/nokia/B2N
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -30,7 +30,7 @@ TARGET_NO_BOOTLOADER := true
 # Platform
 BOARD_VENDOR := nokia
 TARGET_BOARD_PLATFORM := sdm660
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno509
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno512
 
 # Architecture
 TARGET_ARCH := arm64
@@ -58,7 +58,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 TARGET_KERNEL_SOURCE := kernel/nokia/sdm660
-TARGET_KERNEL_CONFIG := DRG_defconfig
+TARGET_KERNEL_CONFIG := B2N_defconfig
 
 
 # QCOM
@@ -70,7 +70,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := DRG
+TARGET_OTA_ASSERT_DEVICE := B2N
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -190,14 +190,14 @@ TARGET_USES_MEDIA_EXTENSIONS := true
 # Partitions
 BOARD_FLASH_BLOCK_SIZE := 131072
 BOARD_BOOTIMAGE_PARTITION_SIZE := 0x04000000
-BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2684354560
+BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
 BOARD_BUILD_SYSTEM_ROOT_IMAGE := true
 TARGET_COPY_OUT_VENDOR := vendor
 TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # vendor
-BOARD_PREBUILT_VENDORIMAGE := vendor/nokia/DRG/proprietary/vendor.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/nokia/B2N/proprietary/vendor.img
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
@@ -229,8 +229,8 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_USES_MKE2FS := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_DRG
-TARGET_RECOVERY_DEVICE_MODULES := libinit_DRG
+TARGET_INIT_VENDOR_LIB := libinit_B2N
+TARGET_RECOVERY_DEVICE_MODULES := libinit_B2N
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
@@ -259,4 +259,4 @@ endif
 
 
 # inherit from the proprietary version
--include vendor/nokia/DRG/BoardConfigVendor.mk
+-include vendor/nokia/B2N/BoardConfigVendor.mk

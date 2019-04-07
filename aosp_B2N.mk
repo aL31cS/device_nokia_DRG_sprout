@@ -19,13 +19,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit from DRG device
-$(call inherit-product, device/nokia/DRG/device.mk)
+# Inherit from B2N device
+$(call inherit-product, device/nokia/B2N/device.mk)
 
-# Inherit some common viper stuff.
+# Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/viper/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -63,19 +63,19 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := viper_DRG
+PRODUCT_NAME := aosp_B2N
 PRODUCT_BRAND := nokia
-PRODUCT_DEVICE := DRG
+PRODUCT_DEVICE := B2N
 PRODUCT_MANUFACTURER := nokia
-PRODUCT_MODEL := Nokia 6.1 Plus
+PRODUCT_MODEL := Nokia 7 Plus
 
 PRODUCT_GMS_CLIENTID_BASE := android-nokia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="DRG" \
-    PRODUCT_NAME="DRG" \
-    PRIVATE_BUILD_DESC="DRG_sprout-user 9 PPR1.180610.011 00WW_3_51F:user release-keys"
+    TARGET_DEVICE="B2N" \
+    PRODUCT_NAME="B2N" \
+    PRIVATE_BUILD_DESC="B2N-user 9.0.0 OPN1.121119.012 V8.5.12.0.OELSIFA release-keys"
 
-BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:9/PPR1.180610.011/00WW_3_51F:user/release-keys
+BUILD_FINGERPRINT := nokia/B2N/B2N:9.0.0/OPN1.121119.012/V8.5.12.0.OELSIFA:user/release-keys
 
 TARGET_VENDOR := nokia
