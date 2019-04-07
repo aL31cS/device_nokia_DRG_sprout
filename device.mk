@@ -21,7 +21,7 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
+$(call inherit-product, vendor/nokia/PL2/PL2-vendor.mk)
 
 
 # Overlays

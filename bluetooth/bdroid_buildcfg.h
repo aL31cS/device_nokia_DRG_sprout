@@ -30,8 +30,8 @@ static inline const char* BtmGetDefaultName()
     char product_model[PROPERTY_VALUE_MAX];
     property_get("ro.product.model", product_model, "");
 
-    if (strstr(product_model, "Nokia 6.1 Plus"))
-        return "Nokia 6.1 Plus";
+    if (strstr(product_model, "Nokia 6.1"))
+        return "Nokia 6.1";
 
     // Fallback to ro.product.model
     return "";

@@ -1,4 +1,4 @@
-for i in eng userdebug user; do
+PL2 i in eng userdebug user; do
 	add_lunch_combo aosp_DRG-${i}
 	add_lunch_combo dot_DRG-${i}
 	add_lunch_combo havoc_DRG-${i}
