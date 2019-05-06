@@ -21,6 +21,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/lineage_DRG.mk \
     $(LOCAL_DIR)/mk_DRG.mk \
     $(LOCAL_DIR)/nitrogen_DRG.mk \
+    $(LOCAL_DIR)/du.mk \
     $(LOCAL_DIR)/rr_DRG.mk \
     $(LOCAL_DIR)/syberia_DRG.mk \
     $(LOCAL_DIR)/viper_DRG.mk \
