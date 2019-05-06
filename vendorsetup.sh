@@ -8,5 +8,6 @@ for i in eng userdebug user; do
 	add_lunch_combo rr_DRG-${i}
 	add_lunch_combo syberia_DRG-${i}
 	add_lunch_combo superior_DRG-${i}
+	add_lunch_combo du_DRG-${i}
 	add_lunch_combo viper_DRG-${i}
 done
