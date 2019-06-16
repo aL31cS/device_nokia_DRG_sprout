@@ -18,6 +18,7 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/dot_DRG.mk \
     $(LOCAL_DIR)/havoc_DRG.mk \
     $(LOCAL_DIR)/superior_DRG \
+    $(LOCAL_DIR)/descendant_DRG.mk \
     $(LOCAL_DIR)/lineage_DRG.mk \
     $(LOCAL_DIR)/mk_DRG.mk \
     $(LOCAL_DIR)/nitrogen_DRG.mk \
