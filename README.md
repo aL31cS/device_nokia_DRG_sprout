@@ -1,7 +1,7 @@
 
  Nokia 6.1 plus (codenamed _"DRG"_) are high-end mid-range smartphones from Nokia.
 
-Nokia 6.1 Plus was announced and released in july 2018.
+Nokia 6.1 Plus was announced and released in july 2018. Global
 
 ## Device specifications
 
