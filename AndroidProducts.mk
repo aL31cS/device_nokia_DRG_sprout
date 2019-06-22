@@ -15,6 +15,7 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_DRG.mk \
+    $(LOCAL_DIR)/aosip.mk \
     $(LOCAL_DIR)/dot_DRG.mk \
     $(LOCAL_DIR)/havoc_DRG.mk \
     $(LOCAL_DIR)/superior_DRG \
