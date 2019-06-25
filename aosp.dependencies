@@ -1,14 +1,14 @@
 [
   {
-    "repository" : "milindjon/vendor_nokia",
+    "repository" : "RaghuVarma331/vendor_nokia",
     "target_path": "vendor/nokia"
     "branch": "pie",
-    "remote": "github"	
+    "remote": "gitlab"	
   },
   {
-    "repository" : "milindjon/kernel_nokia_sdm660",
+    "repository" : "hmd-nokia-sdm660-development/kernel_nokia_sdm660",
     "target_path": "kernel/nokia/sdm660"
-    "branch": "pie-330B",
+    "branch": "pie-caf",
     "remote": "github"	
   },
   {
