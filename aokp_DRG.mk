@@ -74,8 +74,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-nokia
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="DRG" \
     PRODUCT_NAME="DRG" \
-    PRIVATE_BUILD_DESC="DRG_sprout-user 9 PPR1.180610.011 00WW_3_51F:user release-keys"
+    PRIVATE_BUILD_DESC="DRG_sprout-user 9 PPR1.180610.011 00WW_3_54E:user release-keys"
 
-BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:9/PPR1.180610.011/00WW_3_51F:user/release-keys
+BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:9/PPR1.180610.011/00WW_3_54E:user/release-keys
 
 TARGET_VENDOR := nokia
