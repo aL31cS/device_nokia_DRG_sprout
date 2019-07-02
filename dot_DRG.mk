@@ -22,10 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from DRG device
 $(call inherit-product, device/nokia/DRG/device.mk)
 
-# Inherit some common lineage stuff.
+# Inherit some common dotOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -63,7 +62,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := lineage_DRG
+PRODUCT_NAME := dot_DRG
 PRODUCT_BRAND := nokia
 PRODUCT_DEVICE := DRG
 PRODUCT_MANUFACTURER := nokia
