@@ -21,7 +21,7 @@
 # definition file).
 #
 
-$(call inherit-product, vendor/nokia/DRG/DRG-vendor.mk)
+$(call inherit-product, vendor/nokia/DRG_sprout/DRG_sprout-vendor.mk)
 
 
 # Overlays
@@ -371,7 +371,7 @@ PRODUCT_PACKAGES += \
 
 # Recovery
 PRODUCT_PACKAGES += \
-    librecovery_updater_DRG
+    librecovery_updater_DRG_sprout
 
 # RIL
 PRODUCT_PACKAGES += \

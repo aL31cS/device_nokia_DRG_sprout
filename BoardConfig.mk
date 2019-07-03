@@ -21,7 +21,7 @@
 # definition file).
 #
 
-DEVICE_PATH := device/nokia/DRG
+DEVICE_PATH := device/nokia/DRG_sprout
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sdm660
@@ -70,7 +70,7 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 
 # Assert
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := DRG
+TARGET_OTA_ASSERT_DEVICE := DRG_sprout
 
 # Audio
 BOARD_USES_ALSA_AUDIO := true
@@ -197,7 +197,7 @@ TARGET_USERIMAGES_USE_EXT4 := true
 TARGET_USERIMAGES_USE_F2FS := true
 
 # vendor
-BOARD_PREBUILT_VENDORIMAGE := vendor/nokia/DRG/proprietary/vendor.img
+BOARD_PREBUILT_VENDORIMAGE := vendor/nokia/DRG_sprout/proprietary/vendor.img
 
 # Power
 TARGET_USES_INTERACTION_BOOST := true
@@ -229,8 +229,8 @@ PRODUCT_VENDOR_MOVE_ENABLED := true
 TARGET_USES_MKE2FS := true
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_DRG
-TARGET_RECOVERY_DEVICE_MODULES := libinit_DRG
+TARGET_INIT_VENDOR_LIB := libinit_DRG_sprout
+TARGET_RECOVERY_DEVICE_MODULES := libinit_DRG_sprout
 
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
@@ -259,4 +259,4 @@ endif
 
 
 # inherit from the proprietary version
--include vendor/nokia/DRG/BoardConfigVendor.mk
+-include vendor/nokia/DRG_sprout/BoardConfigVendor.mk

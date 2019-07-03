@@ -19,8 +19,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
-# Inherit from DRG device
-$(call inherit-product, device/nokia/DRG/device.mk)
+# Inherit from DRG_sprout device
+$(call inherit-product, device/nokia/DRG_sprout/device.mk)
 
 # Inherit some common dotOS stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
@@ -62,17 +62,17 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := dot_DRG
+PRODUCT_NAME := dot_DRG_sprout
 PRODUCT_BRAND := nokia
-PRODUCT_DEVICE := DRG
+PRODUCT_DEVICE := DRG_sprout
 PRODUCT_MANUFACTURER := nokia
 PRODUCT_MODEL := Nokia 6.1 Plus
 
 PRODUCT_GMS_CLIENTID_BASE := android-nokia
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    TARGET_DEVICE="DRG" \
-    PRODUCT_NAME="DRG" \
+    TARGET_DEVICE="DRG_sprout" \
+    PRODUCT_NAME="DRG_sprout" \
     PRIVATE_BUILD_DESC="DRG_sprout-user 9 PPR1.180610.011 00WW_3_54E:user release-keys"
 
 BUILD_FINGERPRINT := Nokia/Dragon_00WW/DRG_sprout:9/PPR1.180610.011/00WW_3_54E:user/release-keys

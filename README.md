@@ -1,5 +1,5 @@
 
- Nokia 6.1 plus (codenamed _"DRG"_) are high-end mid-range smartphones from Nokia.
+ Nokia 6.1 plus (codenamed _"DRG_sprout"_) are high-end mid-range smartphones from Nokia.
 
 Nokia 6.1 Plus was announced and released in july 2018. Global
 
@@ -17,3 +17,6 @@ Nokia 6.1 Plus was announced and released in july 2018. Global
 | Dimensions   | 158.6 x 75.4 x 8.05 mm                          |
 | Display      | 2280 x 1080 (18:9), 5.8  inch                   |
 
+## Device picture
+
+![Nokia 6.1 Plus](https://www.androidcentral.com/sites/androidcentral.com/files/styles/xlarge_wm_brw/public/article_images/2018/08/nokia-6-plus-1.jpg "Nokia 6.1 Plus")

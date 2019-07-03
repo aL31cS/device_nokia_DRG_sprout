@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/dot_DRG.mk
+    $(LOCAL_DIR)/dot_DRG_sprout.mk
