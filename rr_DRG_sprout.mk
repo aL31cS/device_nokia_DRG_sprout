@@ -22,11 +22,8 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk
 # Inherit from DRG_sprout device
 $(call inherit-product, device/nokia/DRG_sprout/device.mk)
 
-# Inherit some common PixelExperience stuff.
-export CUSTOM_BUILD_TYPE=OFFICIAL
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_GAPPS_ARCH := arm64
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit some common Resurrection Remix OS stuff.
+$(call inherit-product, vendor/rr/config/common_full_phone.mk)
 
 # A/B updater
 AB_OTA_UPDATER := true
@@ -64,7 +61,7 @@ PRODUCT_STATIC_BOOT_CONTROL_HAL := \
     libz
 
 # Device identifiers
-PRODUCT_NAME := aosp_DRG_sprout
+PRODUCT_NAME := rr_DRG_sprout
 PRODUCT_BRAND := nokia
 PRODUCT_DEVICE := DRG_sprout
 PRODUCT_MANUFACTURER := nokia
